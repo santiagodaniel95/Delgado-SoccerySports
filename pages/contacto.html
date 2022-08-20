@@ -12,45 +12,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
-<body class="contenedor">
-    <header class="header">
-        <img class="img-logo" src="../img/logo.png" alt="logo del sitio">
-    
-        <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="./sobrenosotros.html">Sobre nosotros</a>
-            <a href="./entrenamientos.html">Entrenamientos</a>
-            <a href="./galeria.html">Galeria</a>
-            <a href="./contacto.html">Contacto</a>
-        </nav>
-    </header>
-    <main class="main">
-        <h1>Contacto</h1>
-        <div class="wrapper">
-            <form action="" class="form-area">
-                <div class="area-msj">
-                    <label for="msj">Mensaje</label>
-                    <textarea id="msj"></textarea>
-                </div>
-                <div class="details-area">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="" id="nombre">
-
-                    <label for=>Número de teléfono</label>
-                    <input type="number" name="" id="telefono">
-
-                    <label for="email">Email</label>
-                    <input type="email" name="" id="email">
-                    <button type="submit">Enviar</button>
-                </div>
-
-            </form>
-
-        </div>
-    </main>
-    <footer class="footer">
-        <div>&#169 Soccer y Sports 2022</div>
-        <div>Desing by Santiago Delgado</div>
-    </footer>
+<body>
+    <div id="grilla">
+        <header>
+            <img class="imgLogo" src="../img/logo.png" alt="logo del sitio">
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="./sobrenosotros.html">Sobre nosotros</a>
+                <a href="./entrenamientos.html">Entrenamientos</a>
+                <a href="./galeria.html">Galeria</a>
+                <a href="./contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Contacto</h1>
+            <div class="wrapper">
+                <form action="" class="form-area">
+                    <div class="area-msj">
+                        <label for="msj" >Mensaje</label>
+                        <textarea placeholder="Mensaje" id="msj"></textarea>
+                    </div>
+                    <div class="details-area">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" name="" id="nombre">
+                        <label for=>Número de teléfono</label>
+                        <input type="number" placeholder="Número de teléfono" name="" id="telefono">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" name="" id="email">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div>&#169 Soccer y Sports 2022</div>
+            <div>Desing by Santiago Delgado</div>
+        </footer>
+    </div>
 </body>
 </html>

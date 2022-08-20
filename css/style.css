@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-#grillaIndex{
+#grilla{
     /* display: grid; */
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -31,7 +31,7 @@ body{
 
 header{
     display: flex;
-    background-image: linear-gradient(to left, rgb(23, 23, 106), rgb(83, 83, 196), rgb(23, 23, 106));
+    background-image: linear-gradient(to left, rgb(20, 20, 66), rgb(83, 83, 196), rgb(20, 20, 66));
     /* background-color: #2f3061; */
     justify-content: space-between;
     align-items: center;
@@ -65,13 +65,25 @@ h2{
     font-style: normal;
 }
 
+h4{
+    font-family: 'Noto Serif', serif;
+}
+
+p{
+    font-family: 'Noto Serif', serif;
+}
+
+li{
+    font-family: 'Noto Serif', serif;
+}
+
 video{
-    width: 98.5vw;
+    width: 70vw;
     object-fit: cover;
 }
 
 footer{
-    background-color:#0e283c ;
+    background-image: linear-gradient(to left, rgb(25, 25, 79), rgb(54, 73, 170), rgb(25, 25, 79) );
     color: #EFF7F6;
     height: 80px;
     text-align: center;
@@ -104,4 +116,87 @@ footer{
         "footer footer footer";
     
     }
+}
+
+/* Galeria */
+
+.galeria{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3px;
+}
+
+.imgGaleria{
+    width: 330px;
+    height: 250px;
+}
+
+/* Contacto */
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+    width: 600px;
+    margin: 5% auto;
+}
+
+.form-area{
+    display: flex;
+    background: rgba(138, 198, 235, 0.8);
+    border-radius: 25px;
+    padding: 32px;
+}
+
+.area-msj{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.area-msj > textarea{
+    flex: 1;
+    min-width: 288px;
+    color: #000000;
+    padding: 15px;
+    font-family: 'Noto Serif', serif;
+}
+
+.details-area{
+    flex: 1;
+    order: 1;
+    margin-right: 32px;
+}
+
+.details-area input{
+    width: 100%;
+    color: #000000;
+    border-radius: 40px;
+}
+
+.details-area input,
+.details-area button{
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.details-area button{
+    background: #30638E;
+    color: rgb(11, 10, 10);
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+}
+
+label{
+    color: rgb(15, 13, 13);
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'Noto Serif', serif;
 }
