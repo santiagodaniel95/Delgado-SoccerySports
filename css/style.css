@@ -1,121 +1,39 @@
-body{
+*{
     margin: 0;
     padding: 0;
-}
-
-#grilla{
-    /* display: grid; */
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "header header header"
-        "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    column-gap: 10px;
-    row-gap: 10px;
-    height: 100vh;
-}
-
-/* #grillaSn{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "header header header"
-        "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    column-gap: 10px;
-    row-gap: 10px;
-    height: 100vh;
-} */
-
-header{
-    display: flex;
-    background-image: linear-gradient(to left, rgb(20, 20, 66), rgb(83, 83, 196), rgb(20, 20, 66));
-    /* background-color: #2f3061; */
-    justify-content: space-between;
-    align-items: center;
-}
-
-a{
-    color: #EFF7F6;
-    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
     text-decoration: none;
-    font-size: 23px;
-    padding: 8px;
 }
 
-a:hover{
-    color:#6495ed ;
+.navbar{
+    background-image: linear-gradient(to left, rgb(20, 20, 66), rgb(83, 83, 196), rgb(20, 20, 66));
 }
+
 
 .imgLogo{
     width: 80px;
-    height: 65px;
 }
 
-h1{
-    font-family: 'Noto Serif', serif;
-    font-size: 40px;
-    font-style: normal;
-}
-
-h2{
-    font-family: 'Noto Serif', serif;
-    font-style: normal;
-}
-
-h4{
-    font-family: 'Noto Serif', serif;
-}
-
-p{
-    font-family: 'Noto Serif', serif;
-}
-
-li{
-    font-family: 'Noto Serif', serif;
-}
-
-video{
-    width: 70vw;
-    object-fit: cover;
-}
-
-footer{
-    background-image: linear-gradient(to left, rgb(25, 25, 79), rgb(54, 73, 170), rgb(25, 25, 79) );
+.navA{
     color: #EFF7F6;
-    height: 80px;
-    text-align: center;
-    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
-    #grillaIndex{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "header header header"
-        "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    }
-    main{
-        font-size: 16px;
-    }
+/* Estilos del footer */
+
+.text-white{
+    text-decoration: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: portr) {
-    
-}
+/* Fin estilos del footer */
 
-@media screen and (min-width: 1200px){
-    #grillaIndex{
-        grid-template-areas: 
-        "header nav nav"
-        "main main main"
-        "footer footer footer";
-    
-    }
+.videoBoostrap{
+    width: 75vw;
+    object-fit: cover;
 }
 
 /* Galeria */
@@ -129,7 +47,7 @@ footer{
 .imgGaleria{
     width: 330px;
     height: 250px;
-}
+} */
 
 /* Contacto */
 
@@ -175,7 +93,7 @@ footer{
     width: 100%;
     color: #000000;
     border-radius: 40px;
-}
+} */
 
 .details-area input,
 .details-area button{
@@ -199,4 +117,4 @@ label{
     text-transform: uppercase;
     line-height: 40px;
     font-family: 'Noto Serif', serif;
-}
+}  
