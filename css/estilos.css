@@ -40,14 +40,18 @@
 }
 
 /* Galeria */
-
-.slide {
-    margin-top: 10px;
+.carousel {
+    width: 600px;
+    height: 600px;
 }
 
-.slide img {
-    height: 85vh;
-    width: 65vw;
+.carousel-inner {
+    width: 600px;
+    height: 600px;
+}
+
+.carousel-control-next-icon {
+    background-color: #000000;
 }
 
 /* Contacto*/
